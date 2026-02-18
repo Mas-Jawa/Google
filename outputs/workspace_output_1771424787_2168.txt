@@ -1,0 +1,61 @@
+Collecting flask==3.0.0 (from -r requirements.txt (line 1))
+  Downloading flask-3.0.0-py3-none-any.whl.metadata (3.6 kB)
+Collecting flask-socketio==5.3.6 (from -r requirements.txt (line 2))
+  Downloading Flask_SocketIO-5.3.6-py3-none-any.whl.metadata (2.6 kB)
+Collecting python-socketio==5.11.0 (from -r requirements.txt (line 3))
+  Downloading python_socketio-5.11.0-py3-none-any.whl.metadata (3.2 kB)
+Collecting eventlet==0.33.3 (from -r requirements.txt (line 4))
+  Downloading eventlet-0.33.3-py2.py3-none-any.whl.metadata (4.3 kB)
+Collecting Werkzeug>=3.0.0 (from flask==3.0.0->-r requirements.txt (line 1))
+  Downloading werkzeug-3.1.5-py3-none-any.whl.metadata (4.0 kB)
+Collecting Jinja2>=3.1.2 (from flask==3.0.0->-r requirements.txt (line 1))
+  Downloading jinja2-3.1.6-py3-none-any.whl.metadata (2.9 kB)
+Collecting itsdangerous>=2.1.2 (from flask==3.0.0->-r requirements.txt (line 1))
+  Downloading itsdangerous-2.2.0-py3-none-any.whl.metadata (1.9 kB)
+Requirement already satisfied: click>=8.1.3 in /usr/local/lib/python3.11/site-packages (from flask==3.0.0->-r requirements.txt (line 1)) (8.3.1)
+Collecting blinker>=1.6.2 (from flask==3.0.0->-r requirements.txt (line 1))
+  Downloading blinker-1.9.0-py3-none-any.whl.metadata (1.6 kB)
+Collecting bidict>=0.21.0 (from python-socketio==5.11.0->-r requirements.txt (line 3))
+  Downloading bidict-0.23.1-py3-none-any.whl.metadata (8.7 kB)
+Collecting python-engineio>=4.8.0 (from python-socketio==5.11.0->-r requirements.txt (line 3))
+  Downloading python_engineio-4.13.1-py3-none-any.whl.metadata (2.3 kB)
+Collecting dnspython>=1.15.0 (from eventlet==0.33.3->-r requirements.txt (line 4))
+  Downloading dnspython-2.8.0-py3-none-any.whl.metadata (5.7 kB)
+Requirement already satisfied: greenlet>=0.3 in /usr/local/lib/python3.11/site-packages (from eventlet==0.33.3->-r requirements.txt (line 4)) (3.3.1)
+Collecting six>=1.10.0 (from eventlet==0.33.3->-r requirements.txt (line 4))
+  Downloading six-1.17.0-py2.py3-none-any.whl.metadata (1.7 kB)
+Collecting MarkupSafe>=2.0 (from Jinja2>=3.1.2->flask==3.0.0->-r requirements.txt (line 1))
+  Downloading markupsafe-3.0.3-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl.metadata (2.7 kB)
+Collecting simple-websocket>=0.10.0 (from python-engineio>=4.8.0->python-socketio==5.11.0->-r requirements.txt (line 3))
+  Downloading simple_websocket-1.1.0-py3-none-any.whl.metadata (1.5 kB)
+Collecting wsproto (from simple-websocket>=0.10.0->python-engineio>=4.8.0->python-socketio==5.11.0->-r requirements.txt (line 3))
+  Downloading wsproto-1.3.2-py3-none-any.whl.metadata (5.2 kB)
+Requirement already satisfied: h11<1,>=0.16.0 in /usr/local/lib/python3.11/site-packages (from wsproto->simple-websocket>=0.10.0->python-engineio>=4.8.0->python-socketio==5.11.0->-r requirements.txt (line 3)) (0.16.0)
+Downloading flask-3.0.0-py3-none-any.whl (99 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 99.7/99.7 kB 6.6 MB/s eta 0:00:00
+Downloading Flask_SocketIO-5.3.6-py3-none-any.whl (18 kB)
+Downloading python_socketio-5.11.0-py3-none-any.whl (75 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 75.4/75.4 kB 32.2 MB/s eta 0:00:00
+Downloading eventlet-0.33.3-py2.py3-none-any.whl (226 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 226.8/226.8 kB 20.0 MB/s eta 0:00:00
+Downloading bidict-0.23.1-py3-none-any.whl (32 kB)
+Downloading blinker-1.9.0-py3-none-any.whl (8.5 kB)
+Downloading dnspython-2.8.0-py3-none-any.whl (331 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 331.1/331.1 kB 68.8 MB/s eta 0:00:00
+Downloading itsdangerous-2.2.0-py3-none-any.whl (16 kB)
+Downloading jinja2-3.1.6-py3-none-any.whl (134 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 134.9/134.9 kB 58.8 MB/s eta 0:00:00
+Downloading python_engineio-4.13.1-py3-none-any.whl (59 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 59.8/59.8 kB 28.8 MB/s eta 0:00:00
+Downloading six-1.17.0-py2.py3-none-any.whl (11 kB)
+Downloading werkzeug-3.1.5-py3-none-any.whl (225 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 225.0/225.0 kB 70.9 MB/s eta 0:00:00
+Downloading markupsafe-3.0.3-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (22 kB)
+Downloading simple_websocket-1.1.0-py3-none-any.whl (13 kB)
+Downloading wsproto-1.3.2-py3-none-any.whl (24 kB)
+Installing collected packages: wsproto, six, MarkupSafe, itsdangerous, dnspython, blinker, bidict, Werkzeug, simple-websocket, Jinja2, eventlet, python-engineio, flask, python-socketio, flask-socketio
+Successfully installed Jinja2-3.1.6 MarkupSafe-3.0.3 Werkzeug-3.1.5 bidict-0.23.1 blinker-1.9.0 dnspython-2.8.0 eventlet-0.33.3 flask-3.0.0 flask-socketio-5.3.6 itsdangerous-2.2.0 python-engineio-4.13.1 python-socketio-5.11.0 simple-websocket-1.1.0 six-1.17.0 wsproto-1.3.2
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
+
+[notice] A new release of pip is available: 24.0 -> 26.0.1
+[notice] To update, run: pip install --upgrade pip

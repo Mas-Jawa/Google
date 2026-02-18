@@ -1,0 +1,72 @@
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 124-732-742
+Exception in thread Thread-2 (run_server):
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/threading.py", line 1045, in _bootstrap_inner
+    self.run()
+  File "/usr/local/lib/python3.11/threading.py", line 982, in run
+    self._target(*self._args, **self._kwargs)
+  File "/usr/local/lib/python3.11/site-packages/flask_socketio/__init__.py", line 661, in run_server
+    eventlet_socket = eventlet.listen(addresses[0][4],
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/eventlet/convenience.py", line 78, in listen
+    sock.bind(addr)
+OSError: [Errno 98] Address already in use
+ * Detected change in '/workspace/app.py', reloading
+Starting server on http://0.0.0.0:8080
+Press Ctrl+C to stop
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 124-732-742
+(1465) wsgi starting up on http://0.0.0.0:53733
+(1465) accepted ('127.0.0.1', 46358)
+(1465) accepted ('127.0.0.1', 46364)
+127.0.0.1 - - [18/Feb/2026 14:31:04] "GET /?password=96432921-543a-4f97-88fa-683856c0612e HTTP/1.1" 200 8182 0.004056
+(1465) accepted ('127.0.0.1', 45382)
+(1465) accepted ('172.16.0.1', 42820)
+160.25.245.15,64.252.104.230,10.1.10.92,172.16.0.1 - - [18/Feb/2026 14:31:09] "GET /static/css/style.css HTTP/1.1" 200 8204 0.003378
+(1465) accepted ('127.0.0.1', 45398)
+127.0.0.1 - - [18/Feb/2026 14:31:09] "GET /?password=96432921-543a-4f97-88fa-683856c0612e HTTP/1.1" 200 8182 0.000721
+(1465) accepted ('172.16.0.1', 42836)
+160.25.245.15,64.252.103.215,10.1.10.92,172.16.0.1 - - [18/Feb/2026 14:31:11] "GET /static/css/style.css HTTP/1.1" 200 8204 0.000970
+(1465) accepted ('172.16.0.1', 42846)
+160.25.245.15,64.252.104.36,10.1.41.225,172.16.0.1 - - [18/Feb/2026 14:31:12] "GET /static/js/app.js HTTP/1.1" 200 9902 0.000888
+(1465) accepted ('172.16.0.1', 34620)
+160.25.245.15,64.252.104.247,10.1.41.225,172.16.0.1 - - [18/Feb/2026 14:31:53] "POST /api/login HTTP/1.1" 401 185 0.000849
+(1465) accepted ('172.16.0.1', 54600)
+160.25.245.15,64.252.104.247,10.1.41.225,172.16.0.1 - - [18/Feb/2026 14:32:03] "POST /api/login HTTP/1.1" 401 185 0.000687
+(1465) accepted ('172.16.0.1', 37104)
+160.25.245.15,64.252.104.247,10.1.21.17,172.16.0.1 - - [18/Feb/2026 14:32:27] "POST /api/login HTTP/1.1" 401 185 0.000696
+(1465) accepted ('172.16.0.1', 55410)
+160.25.245.15,64.252.104.247,10.1.21.17,172.16.0.1 - - [18/Feb/2026 14:33:27] "POST /api/login HTTP/1.1" 401 185 0.000750
+ * Detected change in '/workspace/app.py', reloading
+Starting server on http://0.0.0.0:53733
+Press Ctrl+C to stop
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 124-732-742
+(1793) wsgi starting up on http://0.0.0.0:53733
+ * Detected change in '/workspace/app.py', reloading
+Starting server on http://0.0.0.0:53733
+Press Ctrl+C to stop
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 124-732-742
+(1823) wsgi starting up on http://0.0.0.0:53733
+ * Detected change in '/workspace/app.py', reloading
+Starting server on http://0.0.0.0:53733
+Press Ctrl+C to stop
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 124-732-742
+(1857) wsgi starting up on http://0.0.0.0:53733
+ * Detected change in '/workspace/app.py', reloading
+Starting server on http://0.0.0.0:53733
+Press Ctrl+C to stop
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 124-732-742
+(1887) wsgi starting up on http://0.0.0.0:53733
+Starting server on http://0.0.0.0:8080
+Press Ctrl+C to stop

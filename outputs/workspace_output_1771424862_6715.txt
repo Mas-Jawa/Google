@@ -1,0 +1,41 @@
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 338-418-214
+(1491) wsgi starting up on http://0.0.0.0:53733
+(1491) accepted ('127.0.0.1', 46352)
+(1491) accepted ('127.0.0.1', 46374)
+127.0.0.1 - - [18/Feb/2026 14:31:04] "GET /?password=96432921-543a-4f97-88fa-683856c0612e HTTP/1.1" 200 8182 0.003008
+(1491) accepted ('172.16.0.1', 42824)
+160.25.245.15,64.252.104.230,10.1.41.225,172.16.0.1 - - [18/Feb/2026 14:31:04] "GET /?hideControls=true&password=96432921-543a-4f97-88fa-683856c0612e HTTP/1.1" 200 8182 0.000698
+(1491) accepted ('172.16.0.1', 34608)
+160.25.245.15,64.252.104.247,10.1.21.17,172.16.0.1 - - [18/Feb/2026 14:31:51] "POST /api/login HTTP/1.1" 401 185 0.000873
+ * Detected change in '/workspace/app.py', reloading
+Starting server on http://0.0.0.0:53733
+Press Ctrl+C to stop
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 338-418-214
+(1799) wsgi starting up on http://0.0.0.0:53733
+ * Detected change in '/workspace/app.py', reloading
+Starting server on http://0.0.0.0:53733
+Press Ctrl+C to stop
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 338-418-214
+(1829) wsgi starting up on http://0.0.0.0:53733
+ * Detected change in '/workspace/app.py', reloading
+Starting server on http://0.0.0.0:53733
+Press Ctrl+C to stop
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 338-418-214
+(1853) wsgi starting up on http://0.0.0.0:53733
+ * Detected change in '/workspace/app.py', reloading
+Starting server on http://0.0.0.0:53733
+Press Ctrl+C to stop
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 338-418-214
+(1884) wsgi starting up on http://0.0.0.0:53733
+Starting server on http://0.0.0.0:53733
+Press Ctrl+C to stop
